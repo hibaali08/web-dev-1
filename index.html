@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4711 Delhi T ourism</title>
+</head>
+<link href="https://fonts.google.com/specimen/Josefin+Sans?query=josefin+sans" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+       /* CSS Reset */
+       body {
+           color: white;
+           margin: 0px;
+           padding: 0px;
+           background: url("img/p3.jpg");
+       }
+       .left{
+           position: absolute;
+           top: 65px;
+           display: inline-block;
+           border: 4px solid white;
+           background-color: brown;
+           width: 200 px; 
+           height: 138px;
+
+       }
+       .left img{
+           width: 200 px; 
+           height: 120px;
+       }
+       .left div{
+           text-align: top;
+           text-decoration-style: wavy;
+           text-align: center;
+       }
+       .mid{
+           display:block;
+           border: 4px solid white;
+           background-color: brown;
+           text-align: center;
+       }
+       .right{
+           position:absolute;
+           right: 34px;
+           top: 20px;
+           display: inline-block;
+           border: 4px solid white;
+           background-color: brown;
+
+       }
+       .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;  
+        padding: 34px 23px;
+
+    }
+
+    .navbar.li a:hover, 
+    .navbar li a.active{
+        text-decoration: underline;
+        color:beige; 
+        
+    }
+    .btn{
+        margin: 0px 10px;
+        background-color: brown;
+        color: beige;
+        padding: 4px 14px;
+        border: 3px teal;  
+        font-size: 15px; 
+        cursor:-moz-zoom-in;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        border: 16px solid white;
+        margin: 146px 860px;
+        padding: 38px 27px;
+        width: 30%;
+        border-radius: 28px;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 340px;
+        padding: 1px;
+        border: 5px solid #8a667e;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+</style>
+<body>
+    <header class="header">
+         <!--left box for logo -->
+        <div class="left">
+            <div>4711 Delhi Tourism</div>  
+            <img src="img/p2.jpg" alt=" "> 
+
+        </div>
+        <!--mid box for navigation-->
+        <div class="mid">
+            <ul class="navbar";>
+                 <li><a href="#" class="active">HOME</a></li>
+                 <li><a href="#" class="active">ABOUT US</a></li>
+                 <li><a href="#" class="active">PLACES</a></li>
+                 <li><a href="#" class="active">CONTACT US</a></li>
+            </ul>
+
+        </div> 
+        <!-- right box for buttons-->
+        <div class="right">
+            <button class="btn">CALL NOW</button>
+            <button class="btn">EMAIL </button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join us for unravelling the beautiful spots now!</h1>
+        <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Adress">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+    </div>
+    
+</body>
+</html>
